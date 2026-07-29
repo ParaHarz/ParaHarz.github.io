@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Para Harz Software is a small independent team building focused, dependable software.">
+  <title>Para Harz Software — Independent software studio</title>
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="apple-touch-icon" href="images/Logo.PNG">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Geist+Mono:wght@400;500&family=Geist:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="#top" aria-label="Para Harz Software home">
+        <img src="images/Logo.PNG" alt="" width="40" height="40">
+        <span>Para Harz Software</span>
+      </a>
+
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="nav-links">
+        <span class="sr-only">Open navigation menu</span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <div class="nav-links" id="nav-links">
+        <div class="nav-dropdown">
+          <button class="dropdown-toggle" type="button" aria-expanded="false" aria-controls="products-menu">
+            Products
+            <span class="dropdown-chevron" aria-hidden="true"></span>
+          </button>
+          <div class="dropdown-menu" id="products-menu">
+            <a href="products/tabryxdb.html">TabryxDB</a>
+            <a href="products/taskcontroller.html">TaskController</a>
+          </div>
+        </div>
+        <a href="mailto:hello@paraharz.com">Contact</a>
+        <div class="nav-dropdown language-dropdown">
+          <button class="dropdown-toggle" type="button" aria-expanded="false" aria-controls="language-menu">
+            EN
+            <span class="dropdown-chevron" aria-hidden="true"></span>
+          </button>
+          <div class="dropdown-menu" id="language-menu">
+            <a href="index.html" lang="en" aria-current="page">English</a>
+            <a href="de.html" lang="de">Deutsch</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero container">
+      <p class="eyebrow">INDEPENDENT SOFTWARE STUDIO</p>
+      <h1>Useful software,<br>carefully made.</h1>
+      <p class="hero-copy">
+        Para Harz Software is a small independent development team building focused tools and
+        digital products. We value simple solutions, thoughtful engineering, and software that stays useful.
+      </p>
+      <div class="hero-actions">
+        <a class="button button-primary" href="mailto:hello@paraharz.com">Get in touch</a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <img src="images/Logo.PNG" alt="" width="32" height="32">
+        <span>Para Harz Software</span>
+      </div>
+      <p>© 2023 Para Harz Software. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>

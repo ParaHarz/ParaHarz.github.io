@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="TabryxDB is an encrypted, single-file database for compact embedded applications.">
+  <title>TabryxDB — Para Harz Software</title>
+  <link rel="icon" type="image/x-icon" href="../favicon.ico">
+  <link rel="apple-touch-icon" href="../images/Logo.PNG">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Geist+Mono:wght@400;500&family=Geist:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="../index.html" aria-label="Para Harz Software home">
+        <img src="../images/Logo.PNG" alt="" width="40" height="40">
+        <span>Para Harz Software</span>
+      </a>
+
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="nav-links">
+        <span class="sr-only">Open navigation menu</span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <div class="nav-links" id="nav-links">
+        <div class="nav-dropdown">
+          <button class="dropdown-toggle" type="button" aria-expanded="false" aria-controls="products-menu">
+            Products
+            <span class="dropdown-chevron" aria-hidden="true"></span>
+          </button>
+          <div class="dropdown-menu" id="products-menu">
+            <a href="tabryxdb.html" aria-current="page">TabryxDB</a>
+            <a href="taskcontroller.html">TaskController</a>
+          </div>
+        </div>
+        <a href="mailto:hello@paraharz.com">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="product-hero container">
+      <div class="product-identity">
+        <span class="product-symbol" aria-hidden="true">T</span>
+        <p>AN INDEPENDENT PROJECT / PRODUCT 01</p>
+      </div>
+      <h1>TabryxDB</h1>
+      <p class="product-tagline">Encrypted, single-file database<br>for compact applications.</p>
+      <div class="product-intro">
+        <p>
+          TabryxDB is a small database engine written in Rust. It stores multiple string-based
+          tables in one encrypted .tbyx file, exposes a stable C ABI, and includes a Windows
+          desktop manager for browsing and editing data.
+        </p>
+        <a class="button button-primary" href="https://github.com/ParaHarz/TabryxDB/releases" target="_blank" rel="noopener noreferrer">
+          Download
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <img src="../images/Logo.PNG" alt="" width="32" height="32">
+        <span>Para Harz Software</span>
+      </div>
+      <p>© 2023 Para Harz Software. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="../main.js"></script>
+</body>
+</html>

@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Para Harz Software ist ein kleines, unabhängiges Team, das fokussierte und zuverlässige Software entwickelt.">
+  <title>Para Harz Software — Unabhängiges Softwarestudio</title>
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="apple-touch-icon" href="images/Logo.PNG">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Geist+Mono:wght@400;500&family=Geist:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Hauptnavigation">
+      <a class="brand" href="#top" aria-label="Para Harz Software Startseite">
+        <img src="images/Logo.PNG" alt="" width="40" height="40">
+        <span>Para Harz Software</span>
+      </a>
+
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="nav-links">
+        <span class="sr-only">Navigationsmenü öffnen</span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <div class="nav-links" id="nav-links">
+        <div class="nav-dropdown">
+          <button class="dropdown-toggle" type="button" aria-expanded="false" aria-controls="products-menu">
+            Produkte
+            <span class="dropdown-chevron" aria-hidden="true"></span>
+          </button>
+          <div class="dropdown-menu" id="products-menu">
+            <a href="products/tabryxdb.html">TabryxDB</a>
+            <a href="products/taskcontroller.html">TaskController</a>
+          </div>
+        </div>
+        <a href="mailto:hello@paraharz.com">Kontakt</a>
+        <div class="nav-dropdown language-dropdown">
+          <button class="dropdown-toggle" type="button" aria-expanded="false" aria-controls="language-menu">
+            DE
+            <span class="dropdown-chevron" aria-hidden="true"></span>
+          </button>
+          <div class="dropdown-menu" id="language-menu">
+            <a href="index.html" lang="en">English</a>
+            <a href="de.html" lang="de" aria-current="page">Deutsch</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero container">
+      <p class="eyebrow">UNABHÄNGIGES SOFTWARESTUDIO</p>
+      <h1>Nützliche Software,<br>sorgfältig entwickelt.</h1>
+      <p class="hero-copy">
+        Para Harz Software ist ein kleines, unabhängiges Entwicklerteam, das fokussierte Werkzeuge
+        und digitale Produkte entwickelt. Wir setzen auf einfache Lösungen, durchdachte Technik und
+        Software, die langfristig nützlich bleibt.
+      </p>
+      <div class="hero-actions">
+        <a class="button button-primary" href="mailto:hello@paraharz.com">Kontakt aufnehmen</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <img src="images/Logo.PNG" alt="" width="32" height="32">
+        <span>Para Harz Software</span>
+      </div>
+      <p>© 2023 Para Harz Software. Alle Rechte vorbehalten.</p>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
