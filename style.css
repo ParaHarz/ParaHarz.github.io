@@ -356,6 +356,16 @@ button:focus-visible {
   line-height: 1.5;
 }
 
+a.service-row {
+  color: inherit;
+  text-decoration: none;
+  transition: background 160ms ease;
+}
+
+a.service-row:hover {
+  background: #fafafa;
+}
+
 .approach-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
